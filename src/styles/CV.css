@@ -1,0 +1,22 @@
+/*CSS override elements from the CSS imported library. */
+
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: black;
+    left:98%;
+    opacity: 100%;
+}
+
+.vertical-timeline-element-icon {
+    box-shadow: 0 0 0 4px #8C3756, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
+}
+
+.vertical-timeline-element-content {
+    background-color: #3279A6;
+    box-shadow: 0 3px 0 #8C3756;
+}
+
+.vertical-timeline-element-content-arrow {
+    border-right: 7px solid #8C3756;
+}

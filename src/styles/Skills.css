@@ -1,0 +1,129 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+  }
+  
+  
+  
+  .skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title-container {
+    background-color: #F29188;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skills h1 {
+    color: #3279A6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    padding: 20px;
+    margin: 20px;
+  
+    
+
+  }
+
+ .skills .list-box {
+    display: flex;
+    justify-content: center;
+    
+    
+
+ }
+
+ .skills {
+    font-size: 35px;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+  }
+  
+  .list {
+    
+    list-style: none;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    /* border:8px solid #3279A6; */
+    border-radius: 15px;
+    
+    margin-top: 3rem;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    /* background-color: #3279A6; */
+    
+    /* background-color: rgba(0, 0, 0, 0.1); */
+  }
+    
+    
+
+  ol {
+    
+    padding-top: 0px;
+    
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+  }
+
+  .item {
+  
+    display: flex;
+    
+    padding: 80px;
+    padding-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+  }
+  
+  .list span {
+
+    font-size: 18px;
+  line-height: 26px;
+    
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      overflow-x: hidden; /* Hide horizontal overflow */
+    }
+    .skills {
+      font-size: 15px;
+    }
+  
+    .skills h1 {
+      font-size: 25px;
+      padding: 8px;
+      margin: 18px;
+    }
+  
+    .item {
+      padding: 25x;
+      padding-top: 0;
+    }
+  
+    .list span {
+      font-size: 12px;
+    }
+    
+    .list {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

@@ -1,0 +1,61 @@
+.project {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-top: 60px; 
+  margin-bottom: 40px;  */
+}
+
+
+.project h1 {
+  margin-top: 30px;
+  color: black;
+  font-size: 35px;
+}
+
+/* New styles for the container holding the images */
+.project-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adds space between images. Adjust as needed */
+  width: 50%;
+}
+
+/* Updated image styles to accommodate side-by-side layout */
+.project-images img {
+  width: 50%; /* Adjust as needed to fit both images side by side */
+  border-radius: 10px;
+}
+
+/* Description container with 50% width */
+.project-description {
+  width: 50%;
+  text-align: left; /* To center the text in the middle of the available width */
+  margin-top: 20px; /* Space above the description. Adjust as needed */
+}
+
+.project-description p {
+  padding: 20px;
+  /* border:8px solid #3279A6; */
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.project-description a {
+  color: black;
+  font-size: 18px ;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+
+.project svg {
+  font-size: 60px;
+  color: #3e497a;
+}
