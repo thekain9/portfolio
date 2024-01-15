@@ -1,4 +1,5 @@
 # PORTFOLIO WEBSITE
+Welcome to my portfolio, a dynamic blend of design and development. As a designer turned developer, I showcase my journey of bringing design concepts to life through code. This platform reflects my growth, featuring diverse projects from my bootcamp experience. Dive into this visual journey, exploring stories woven into each line of code. Cheers to creativity, continuous learning, and the exciting road ahead!😃
 
 # INSTALLING THE APP
 Follow these steps to run the app on your local machine:
